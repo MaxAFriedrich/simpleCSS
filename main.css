@@ -191,6 +191,11 @@ footer {
     text-align: center;
 }
 
+section{
+    background-color: var(--nord5);
+    padding:1rem;
+}
+
 @media only screen and (max-width: 600px) {
     header * {
         display: block;
