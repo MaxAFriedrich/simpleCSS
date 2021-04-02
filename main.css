@@ -116,6 +116,8 @@ input, select {
     box-sizing: border-box;
     background-color: var(--nord4);
     color: var(--nord1);
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 input[type=submit] {
@@ -126,6 +128,8 @@ input[type=submit] {
     margin: 8px 0;
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 button {
@@ -135,6 +139,8 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 img {
@@ -152,21 +158,20 @@ i {
     font-weight: 300;
 }
 
-code{
+code {
     background-color: var(--nord0);
     color: var(--nord4);
-    width:90%;
-    padding:0.5rem;
+    width: 90%;
+    padding: 0.5rem;
     border-radius: 0.5rem;
     font-family: 'Roboto Mono', monospace;
-
 }
-samp{
+
+samp {
     background-color: var(--nord0);
     color: var(--nord15);
-    width:90%;
+    width: 90%;
     font-family: 'Roboto Mono', monospace;
-
 }
 
 header {
@@ -179,11 +184,13 @@ header * {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-footer{
-    color:var(--nord3);
+
+footer {
+    color: var(--nord3);
     font-weight: 300;
     text-align: center;
 }
+
 @media only screen and (max-width: 600px) {
     header * {
         display: block;
